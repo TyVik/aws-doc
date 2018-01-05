@@ -1,4 +1,4 @@
-baseURL = "http://aws.tyvik.ru/"
+baseURL = "https://aws-doc.tyvik.ru/"
 languageCode = "en-us"
 title = "Заметки об AWS"
 theme = "docdock"
