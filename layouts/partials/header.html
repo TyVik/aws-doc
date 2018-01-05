@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     {{ .Hugo.Generator }}
-    {{ partial "meta.html" . }}
     <title>{{ .Title }} :: {{ .Site.Title }}</title>
     <link rel="shortcut icon" href="{{"images/favicon.png" | relURL}}" type="image/x-icon" />
     <link href="{{"css/nucleus.css" | relURL}}" rel="stylesheet">
@@ -64,7 +63,6 @@
                 {{ template "breadcrumb" dict "page" . "value" .Title }}
                 </span>
             </div>
-            {{ partial "toc.html" . }}
           </div>
         {{end}}
         {{if .Params.tags }}
