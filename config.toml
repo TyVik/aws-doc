@@ -4,7 +4,7 @@ title = "Заметки об AWS"
 theme = "docdock"
 MetaDataFormat = "yaml"
 hrefTargetBlank = true
-googleAnalytics = "UA-113193183-1"
+googleAnalytics = "G-5S423B2PY6"
 
 [params]
   # Prefix URL to edit current page. Useful to give opportunity to people to create merge request for your doc.
