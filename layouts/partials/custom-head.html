@@ -2,9 +2,9 @@
 {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ $.Site.GoogleAnalytics }}"></script>
 <script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-gtag('config', '{{ $.Site.GoogleAnalytics }}');
+    gtag('config', '{{ $.Site.GoogleAnalytics }}');
 </script>

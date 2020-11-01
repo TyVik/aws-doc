@@ -10,11 +10,8 @@ googleAnalytics = "G-5S423B2PY6"
   # Prefix URL to edit current page. Useful to give opportunity to people to create merge request for your doc.
   # See the config.toml file from this documentation site to have an example.
   editURL = ""
-  # Author of the site, will be used in meta information
   author = "TyVik"
-  # Description of the site, will be used in meta information
   description = "Заметки об AWS"
-  # Shows a checkmark for visited pages on the menu. Default to false
   showVisitedLinks = false
   # Automatically generates prev and next arrows
   autoNav = true
